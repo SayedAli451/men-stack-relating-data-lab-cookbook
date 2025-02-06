@@ -1,0 +1,8 @@
+<%- include('../partials/head') %>
+    <div class="container">
+        <h1>Welcome to my Pantry</h1>
+        <ul>
+        </ul>
+        <a href="/users/<%= req.session.user._id %>/foods/new" class="btn btn-primary mt-3">Add New Items</a>
+    </div>
+    <%- include('../partials/footer') %>

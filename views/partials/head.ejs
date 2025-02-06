@@ -22,6 +22,7 @@
               </li>
               <% if (user) { %>
               <li class="nav-item">
+                <a class="nav-link" href="/users/<%=user._id%>/foods">View my Pantry</a>
                 <a class="nav-link" href="/auth/sign-out">Sign Out</a>
               </li>
               <% } else { %>
